@@ -1,0 +1,36 @@
+.secaoContato {
+  width           : 100%;
+  text-align      : center;
+  color           : #fff;
+  padding         : 100px 20px;
+  background-color: #05031b;
+}
+
+.contatoCards {
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  padding        : 15px;
+  text-align     : left;
+}
+
+.cardContato {
+  margin: 30px;
+}
+
+.cardContato h4 {
+  margin-bottom: 50px;
+}
+
+.miniCard {
+  margin: 5px 0;
+}
+
+.miniCard img {
+  width: 18px;
+}
+
+.miniCard span {
+  font-size  : 14px;
+  margin-left: 10px;
+}

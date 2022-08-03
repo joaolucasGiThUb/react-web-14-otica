@@ -1,0 +1,48 @@
+.secao-sobre {
+  background-color: #f8f7ff;
+  padding         : 100px 20px;
+  text-align      : center;
+}
+
+.containerSobre {
+  line-height: 32px;
+}
+
+.containerCard {
+  margin-top: 50px;
+  display   : flex;
+  flex-wrap : wrap;
+}
+
+.containerCard img,
+.cardSobre {
+  width     : 50%;
+  max-height: 300px;
+  border    : solid 1px #a1adad;
+}
+
+.containerCard img {
+  object-fit: cover;
+}
+
+.cardSobre {
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+  flex-direction  : column;
+  background-color: #fff;
+  padding         : 20px 25px;
+}
+
+.cardSobre h4 {
+  font-size     : 36px;
+  text-transform: uppercase;
+  font-family: 'Anybody', cursive;
+  letter-spacing: 5px;
+  line-height   : 42px;
+}
+
+.cardSobre p {
+  font-size: 22px;
+  color    : #4a4a4a;
+}
