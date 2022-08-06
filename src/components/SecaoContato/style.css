@@ -26,11 +26,42 @@
   margin: 5px 0;
 }
 
-.miniCard img {
+.contatoCards img {
   width: 18px;
 }
 
-.miniCard span {
+.contatoCardss span {
   font-size  : 14px;
   margin-left: 10px;
+}
+
+/*Responsividade páginas*/
+@media (max-width: 768px) {
+  .secaoContato {
+    padding: 60px 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .contatoCards {
+    padding        : 60px 10px;
+    align-items    : center;
+    justify-content: center;
+  }
+
+  .contatoCards {
+    flex-direction: column;
+  }
+
+  .cardContato {
+    align-items: center;
+  }
+
+  .cardContato h4 {
+    text-align: center;
+  }
+
+  .miniCard {
+    width: 150px;
+  }
 }

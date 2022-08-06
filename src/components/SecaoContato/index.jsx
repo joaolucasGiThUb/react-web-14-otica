@@ -9,6 +9,7 @@ export function SecaoContato() {
         <p>Não perca tempo, venha conhecer uma de nossas lojas ou entre em contato através de nossas redes sociais ou da central de atendimento.</p>
 
         <div className='contatoCards'>
+
           <div className='cardContato'>
             <h4>Contato</h4>
             <div className='miniCard'>

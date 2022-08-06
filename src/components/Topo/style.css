@@ -15,10 +15,30 @@ header img {
 }
 
 nav a {
-  font-size: 18px;
-  color: #000;
+  font-size      : 18px;
+  color          : #000;
   text-decoration: none;
-  text-transform: uppercase;
-  padding: 5px;
-  margin: 0 5px;
+  text-transform : uppercase;
+  padding        : 5px;
+  margin         : 0 5px;
+}
+
+@media (max-width: 550px) {
+  .responsivo {
+    display       : flex;
+    flex-direction: column;
+  }
+
+  header {
+    padding: 10px 0;
+  }
+
+  .responsivo div {
+    border-top: 1px solid rgba(0, 0, 0, 0.19);
+    margin    : 12px 0;
+  }
+
+  .responsivo img {
+    background-position: 80% center;
+  }
 }

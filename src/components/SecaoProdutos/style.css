@@ -53,3 +53,37 @@
   text-align: left;
   margin    : 5px;
 }
+
+/*Responsivo páginas*/
+@media (max-width: 768px) {
+  .secao-produtos {
+    padding: 60px 20px;
+  }
+
+  .cards h3 {
+    font-size: 22px;
+  }
+
+  .cards img {
+    max-height: 100px;
+  }
+
+  .cards p {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 550px) {
+  .secao-produtos {
+    padding: 60px 10px;
+  }
+
+  .cards {
+    width: 100%;
+  }
+
+  .secao-produtos ul {
+    align-items: flex-start;
+  }
+}
