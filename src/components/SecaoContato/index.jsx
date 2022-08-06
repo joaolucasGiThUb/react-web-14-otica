@@ -3,7 +3,7 @@ import './style.css'
 export function SecaoContato() {
 
   return (
-    <section className='secaoContato'>
+    <section className='secaoContato' id='linkContato'>
       <div className='limitar-secao'>
         <h2>Fale conosco</h2>
         <p>Não perca tempo, venha conhecer uma de nossas lojas ou entre em contato através de nossas redes sociais ou da central de atendimento.</p>

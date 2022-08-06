@@ -4,7 +4,7 @@ export function SecaoProdutos() {
 
   return (
     <section className='secao-produtos'>
-      <div className='limitar-secao'>
+      <div className='limitar-secao' id='linkProdutos'>
 
         <h2>Nossos Produtos</h2>
         <p>Trabalhamos com óculos de grau, óculos de sol, lentes transition nos modelos masculino, feminino e infantil.</p>

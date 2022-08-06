@@ -8,9 +8,9 @@ export function Topo() {
         </a>
         <div></div>
         <nav>
-          <a href="#">Produtos</a>
-          <a href="#">Sobre</a>
-          <a href="#">Contato</a>
+          <a href="#linkProdutos">Produtos</a>
+          <a href="#linkSobre">Sobre</a>
+          <a href="#linkContato">Contato</a>
         </nav>
       </div>
     </header>
