@@ -9,7 +9,7 @@ export function SecaoSobre() {
         <p>Fundada em 2001, em Nova Iguaçu - Rio de Janeiro, a Óticas vida iniciou suas atividades focada no atendimento ao público de renda mais baixa, sempre com o objetivo de proporcionar ao cliente bom atendimento, qualidade e preço baixo.</p>
 
         <div className='containerCard'>
-          <img src="/public/assets/imagens/loja.png" alt="Ótica" />
+          <img src="/assets/imagens/loja.png" alt="Ótica" />
 
           <div className='cardSobre'>
             <h4>Nossas Filiais</h4>
@@ -21,7 +21,7 @@ export function SecaoSobre() {
             <p>Nossa equipe possui é treinada para te atender</p>
           </div>
 
-          <img src="/public/assets/imagens/atendimento.png" alt="Atendimento" />
+          <img src="/assets/imagens/atendimento.png" alt="Atendimento" />
 
         </div>
       </div>

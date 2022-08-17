@@ -5,7 +5,7 @@ export function SecaoContato() {
   return (
     <section className='secaoContato' id='linkContato'>
       <div className='limitar-secao'>
-        <h2>Fale conosco</h2>
+        <h2>Fale conosco </h2>
         <p>Não perca tempo, venha conhecer uma de nossas lojas ou entre em contato através de nossas redes sociais ou da central de atendimento.</p>
 
         <div className='contatoCards'>
@@ -13,17 +13,17 @@ export function SecaoContato() {
           <div className='cardContato'>
             <h4>Contato</h4>
             <div className='miniCard'>
-              <img src="/public/assets/imagens/local.png" alt="Localização" />
+              <img src="/assets/imagens/local.png" alt="Localização" />
               <span>Nova Iguaçu, RJ</span>
             </div>
 
             <div className='miniCard'>
-              <img src="/public/assets/imagens/telefone.png" alt="Telefone" />
+              <img src="/assets/imagens/telefone.png" alt="Telefone" />
               <span>(21) 9999-9999</span>
             </div>
 
             <div className='miniCard'>
-              <img src="/public/assets/imagens/email.png" alt="email" />
+              <img src="/assets/imagens/email.png" alt="email" />
               <span>contato@oticavida.com</span>
             </div>
           </div>
@@ -31,17 +31,17 @@ export function SecaoContato() {
           <div className='cardContato'>
             <h4>Nossas Redes Sociais</h4>
             <div className='miniCard'>
-              <img src="/public/assets/imagens/fb.png" alt="Facebook" />
+              <img src="/assets/imagens/fb.png" alt="Facebook" />
               <span>/OticaVida</span>
             </div>
 
             <div className='miniCard'>
-              <img src="/public/assets/imagens/ig.png" alt="Instagram" />
+              <img src="/assets/imagens/ig.png" alt="Instagram" />
               <span>@oticavidarj</span>
             </div>
 
             <div className='miniCard'>
-              <img src="/public/assets/imagens/tt.png" alt="Twitter" />
+              <img src="assets/imagens/tt.png" alt="Twitter" />
               <span>@oticavidarj</span>
             </div>
           </div>
